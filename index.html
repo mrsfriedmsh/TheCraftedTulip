@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <title>The Crafted Tulip</title>
+    </head>
+
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col align-self-center text-dark">
+                        <h1>The Crafted Tulip</h1>
+                        <h2></h2>
+                    </div>
+                    <div class="col col-md-4 col-xl-2 mt-4">
+                        <button type="button" role="button" class="btn btn-lg" id="loginButton" data-bs-toggle="modal" data-bs-target="#loginModal">Welcome Back!</button>
+                    </div>
+                </div>
+            </div>        
+        </header>
+
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #FFE8DF">
+                        <h3 class="modal-title"  >Welcome Back!</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="container-fluid">
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form2Example1" class="form-control" />
+                                <label class="form-label" for="form2Example1">Email address</label>
+                            </div>
+                            
+                              <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="form2Example2" class="form-control" />
+                                <label class="form-label" for="form2Example2">Password</label>
+                            </div>
+                            
+                              <!-- 2 column grid layout for inline styling -->
+                            <div class="row mb-4">
+                                <div class="col d-flex justify-content-center">
+                                  <!-- Checkbox -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                        <label class="form-check-label" for="form2Example31"> Remember me </label>
+                                    </div>
+                                </div>
+                            
+                                <div class="col">
+                                  <!-- Simple link -->
+                                  <a href="#!">Forgot password?</a>
+                                </div>
+                            </div>
+                            
+                              <!-- Submit button -->
+                            <div class="col">
+                                <button type="button" class="btn btn-secondary btn-block mb-4">Sign in</button>
+                            </div>
+                            
+                              <!-- Register buttons -->
+                            <div class="text-center">
+                                <p>Not a member? <a href="#!">Register</a></p>
+                                <p>or sign up with:</p>
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+                            
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+                            
+                                <button type="button" class="btn btn-link btn-floating mx-1">
+                                    <i class="fab fa-instagram"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <nav class="navbar navbar-expand-sm navbar-color text-dark">
+            <div class="container">       
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link text-dark" href="#"><i class="fa-solid fa-house text-dark"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="fabricstatsh.html"><i class="fa-solid fa-heart text-dark"></i> Fabric Stash</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="supplies.html"><i class="fas fa-cut text-dark"></i> Supplies</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#"><i class="fas fa-clipboard-list text-dark"></i> Project Tracker</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="#"><i class="fas fa-brain text-dark"></i> Quilt Brainstorming</a></li>
+                    </ul>
+                </div> 
+
+                <div class="col-xx1-1">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/thecraftedtulip"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-etsy" href="http://etsy.com/shop/thecraftedtulip"><i class="fa-brands fa-etsy"></i></a>
+                </div>
+            </div>   
+        </nav>
+
+        
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-12 mx-auto">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                       
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100 image-fluid" src="images/NightmareSet.png" alt="Nightmare quilt set"/>
+                                <div class="carousel-caption">
+                                    <h3>Fabric Stash</h3>
+                                    <p class="d-none d-sm-block">Keep track of all your fabric and scraps!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 image-fluid" src="images/Bernice.png" alt="sewing machine" />
+                                <div class="carousel-caption">
+                                    <h3>Sewing Supplies</h3>
+                                    <p class="d-none d-sm-block">Keep track of all your supplies and sewing machine feet!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 image-fluid" src="images/FlowerStars.png" alt="star quilt"/>
+                                <div class="carousel-caption">
+                                    <h3>Project Tracker</h3>
+                                    <p class="d-none d-sm-block">Plan your projects and help keep track of patterns and supplies.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100 image-fluid" src="images/StarWars.png" alt="star wars" />
+                                <div class="carousel-caption">
+                                    <h3>Quilt Brainstorming</h3>
+                                    <p class="d-none d-sm-block">Need help choosing or designing your next project? Start Here!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                    </div>
+                </div>
+            </div>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f7b63498ed.js" crossorigin="anonymous"></script>
+    
+        <script src="JS\script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    background-color: #F0F0F0;
+    font-family: "Georgia";
+}
+
+header {
+    background-color: #FFE8DF;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-family: "Georgia";
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #FFE8DF;
+    color: white;
+}
+
+.navbar-color {
+    background-color: white;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.carouselExampleFade {
+    width: max-content;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.img-thumbnail {
+    
+}
